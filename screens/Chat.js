@@ -108,7 +108,7 @@ const Chat = ({ navigation }) => {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
-                Authorization: 'Bearer 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',
+                Authorization: 'Bearer UseYourApiKey',
             },
             body: JSON.stringify({
                 model: 'gpt-3.5-turbo',
